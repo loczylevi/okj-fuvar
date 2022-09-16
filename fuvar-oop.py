@@ -67,6 +67,8 @@ print(f"""7. feladat: Leghosszabb fuvar:
         Megtett távolság: {megtett_tav}
         Viteldíj: {viteldij}$""")
 
+"""
+
 x = [str(sor.utazas_ido) for sor in lista][0]
 # utazas ido és viteldij egy nullaval tobb megtett tavolsag nulla
 tarolo = []
@@ -79,5 +81,4 @@ with open("hibak.txt","w",encoding="UTF-8") as f2:
     for sor in tarolo:
         # taxi_id,indulas,utazas_ido,megtett_tav,viteldij,borravalo,fizetes_mod
         f2.write(f"{sor.taxi_id};{sor.indulas};{sor.utazas_ido};{sor.megtett_tav};{sor.viteldij};{sor.borravalo};{sor.fizetes_mod}\n")
-    
-    
+"""
